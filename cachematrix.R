@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## This function checks if the Cache is null- if not null, then it gets the cached value, if null, then in calculates the inveserse 
-
+ 
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
         if(!is.null(inv)) {
